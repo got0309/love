@@ -17,9 +17,10 @@
 
 <div class="login">
 <form id = "login-form">
-    PW: <input id="password" type="password" name="password" onkeydown="if(event.keyCode==13)javascript:check(this.form);" placeholder="8자리, 입력 후 접속 클릭!" />
-    <input id="mybtn" type="button" onclick="check2(this.form)" value="접속!"/>
-
+    
+    PW: <input id="password" type="password" onkeydown="if(event.keyCode==13){check();}" />
+    <input id="submitBtn" type="button" onclick="check2()" value="접속!"/>
+   
 </form>
 </div>
 
