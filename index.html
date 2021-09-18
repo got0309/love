@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOVE YOU</title>
-    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -16,13 +15,13 @@
     </div>
 
 <div class="login">
-<form id = "login-form">
+<form onsubmit="check(event);" id = "login-form">
     
-    PW: <input id="password" type="password" onkeydown="if(event.keyCode==13){check();}" />
-    <input id="submitBtn" type="button" onclick="check2()" value="접속!"/>
+    PW: <input id="password" type="password"/>
+    <input id="submitBtn" type="submit" value="접속!"/>
    
 </form>
 </div>
-
+<script src="index.js"></script>
 </body>
 </html>
