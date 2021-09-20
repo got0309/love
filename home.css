@@ -1,0 +1,67 @@
+body .logo {
+    zoom: 10%;
+    position: absolute;
+    left: 0px;
+    margin-left: 280px;
+    margin-top: 180px;
+}
+
+.dropdown{
+  margin-top: 45px;
+  margin-right: 10px;
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+.button{
+  padding: 10px 20px;
+  font-size:15px;
+  background-color: rgb(119, 226, 240);
+  color: rgb(0, 0, 0);
+}
+#drop-content{
+  animation: fadein 2s;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#drop-content a{
+  display:block;
+  font-size: 15px;
+  background-color: #dfdfdf;
+  color: black;
+  text-decoration: none;
+  padding: 10px 34px;
+  margin: 2px 0px 0px 0px;
+}
+
+.fadeWork {
+  margin-left: 1850px;
+  align-items: center;
+  zoom: 15%;
+}
+
+.fadeWork .dating {
+  margin-left: 1800px;
+  display: flex;
+  animation: fadein 4s;
+}
+
+.fadeWork .oln {
+  margin-left: 1050px;
+  display: flex;
+  animation: fadein 8s;
+}
+
+.fadeWork .dating .ing{
+  margin-left: -400px;
+}

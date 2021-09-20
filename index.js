@@ -8,5 +8,4 @@ function check(event) {
     } else {
         alert("땡 틀렸답니다!");
     }
-    return false;
 } 
