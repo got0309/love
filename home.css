@@ -1,9 +1,9 @@
 body .logo {
-    zoom: 10%;
+    zoom: 20%;
     position: absolute;
     left: 0px;
     margin-left: 280px;
-    margin-top: 180px;
+    margin-top: -80px;
 }
 
 .dropdown{
@@ -45,23 +45,51 @@ body .logo {
 }
 
 .fadeWork {
-  margin-left: 1850px;
-  align-items: center;
-  zoom: 15%;
+  position:relative;
+  top: 350px;
+  zoom: 25%;
 }
 
 .fadeWork .dating {
-  margin-left: 1800px;
-  display: flex;
-  animation: fadein 4s;
+  animation: fadein 7s;
 }
 
-.fadeWork .oln {
-  margin-left: 1050px;
-  display: flex;
-  animation: fadein 8s;
+.dating .date {
+  position:relative;
+  top: 500px;
+  left: 3000px;
 }
 
-.fadeWork .dating .ing{
-  margin-left: -400px;
+.dating .ing {
+  position:relative;
+  left: 3900px;
+}
+
+.oln .our {
+  animation: fadein 7s; 
+  position: relative;
+  top: -130px;
+  left: 3200px;
+}
+
+.oln .loveis {
+  animation: fadein 7s;
+  position: relative;
+  top: -230px;
+  left: 3400px;
+}
+
+.oln .nowing {
+  animation: fadein 7s;
+  position: relative;
+  top: -280px;
+  left: 3500px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }
